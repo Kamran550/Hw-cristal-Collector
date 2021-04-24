@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="container p-5 " style="background-color: purple; border-radius: 9px;">
+        <h1 class="text-center"><strong style="color: white; font-size: 68px;">Crystal Collector</strong></h1>
+     </div>
+     
+
+  <div class="row mt-3">
+      <div class="col-12">
+        <div class="card text-center">
+            <div class="card-header" style="background-color: #337ab7; color: #fff;">
+                Instructions
+            </div>
+            <div class="card-body">
+              <p class="card-text"><small>You will be given a random number at the start of the game. There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. You win the game by matching your total score to random number, you lose the game if your total score goes above the random number. The value of each crystal is hidden from you until you click on it. Each time when the game starts, the game will change the values of each crystal</small></p>
+            </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="row mt-3">
+      <div class="col-3">
+        <div class="card text-center">
+            <div class="card-header" style="background-color: #337ab7; color: #fff;">
+                <h5 style="font-weight: 480;">Target Score</h5>
+            </div>
+            <div class="card-body">
+             <h3 class="text-center" id="target-score" style="font-weight: 480;">0</h3>
+            </div>
+          </div>
+      </div>
+      <div class="col-3">
+        <div class="card text-center">
+            <div class="card-header" style="background-color: #337ab7; color: #fff;">
+                <h5 style="font-weight: 480;">Your Score</h5>
+            </div>
+            <div class="card-body">
+             <h3 class="text-center" id="target-score" style="font-weight: 480;">0</h3>
+            </div>
+          </div>
+      </div>
+      <div class="col-6">
+        <div class="card text-center">
+            <div class="card-header" style="background-color: #337ab7; color: #fff;">
+                <h5 style="font-weight: 480;">Your Score</h5>
+            </div>
+            <div class="card-body">
+            	<img src="images/blue.png" alt="" id="blue">
+							<img src="images/green.png" alt="" id="green">
+							<img src="images/red.png" alt="" id="red">
+							<img src="images/yellow.png" alt="" id="yellow">
+            </div>
+          </div>
+      </div>
+<div class="container">
+    <div class="row mt-3">
+        <div class="col-6">
+          <div class="card text-center">
+              <div class="card-header" style="background-color: #337ab7; color: #fff;">
+                  <h5 style="font-weight: 480;">Win Count</h5>
+              </div>
+              <div class="card-body">
+                  <h3 class="text-center" id="win-count" style="font-weight: 480;">0</h3>
+              </div>
+            </div>
+        </div>
+        <div class="col-6">
+          <div class="card text-center">
+              <div class="card-header" style="background-color: #337ab7; color: #fff;">
+                  <h5 style="font-weight: 480;">Loss Count</h5>
+              </div>
+              <div class="card-body">
+                  <h3 class="text-center" id="win-count" style="font-weight: 480;">0</h3>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+  </div>
+</div>
+
+
+
+
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+<script src="index.js"></script>
+</body>
+</html>
